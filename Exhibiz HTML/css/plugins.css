@@ -4711,7 +4711,7 @@ img.mfp-img {
 }
 .countdown-amount {
   font-family:"Dosis";
-    font-size: 72px;
+    font-size: 100px;
   color:#fff;
 }
 .countdown-period {
@@ -4760,11 +4760,12 @@ img.mfp-img {
 }
 
 .countdown-s2 .countdown-show4 .countdown-section {
-  width: 80px;
+  width: 100px;
   float:left;
-  background:rgba(255,255,255,.1);
+  background:rgba(26, 131, 180, 0.1);
   padding:20px 0 10px 0;
   margin:5px;
+  border-radius: 15px;
 }
 
 .countdown-s2.no-bg .countdown-section{
