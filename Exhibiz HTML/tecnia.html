@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/activatech.jpg" type="image/gif" sizes="16x16">
+    <title>ACTIVATECH - FORO INTERNACIONAL DE INNOVACI`N Y TECNOLOGÌA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" id="bootstrap-grid">
+    <link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" id="bootstrap-reboot">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/rev-settings.css" rel="stylesheet" type="text/css">
+    <link href="css/color.css" rel="stylesheet" type="text/css">
+
+    <!-- color scheme -->
+	<link rel="stylesheet" href="css/colors/magenta.css" type="text/css" id="colors">
+
+	<!-- custom font -->
+	<link rel="stylesheet" href="css/font-style.css" type="text/css">
+    <script>
+        // Función para reproducir o pausar la música de fondo
+        function toggleBackgroundMusic() {
+            var audio = document.getElementById('backgroundMusic');
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #101010;
+            color: #aaaaaa;
+            text-align: center;
+        }
+        .header {
+            background-color: #222;
+            padding: 20px;
+            color: #ffffff;
+        }
+        .content {
+            margin: 50px 0;
+        }
+        .content h1 {
+            font-size: 2.5em;
+            background: linear-gradient(90deg, #4f78ff, #9337ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content p {
+            font-size: 1.5em;
+            color: #ffffff;
+        }
+        .carousel {
+            position: relative;
+            max-width: 100%;
+            margin: auto;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .slides img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 50%;
+        }
+        .prev {
+            left: 10px;
+        }
+        .next {
+            right: 10px;
+        }
+        .dots {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .dots span {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+        .active, .dots span:hover {
+            background-color: #717171;
+        }
+    </style>
+</head>
+
+<body id="homepage">
+
+    <div id="wrapper">
+
+        <!-- header begin -->
+        <header class="transparent">
+            <div class="info">
+                <div class="container">
+                    <div class="row">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- logo begin -->
+                        <div id="logo">
+                            <a href="index.html">
+                                <img class="logo" src="images/sinfondoactivatech (1) (1).png" alt="">
+                            </a>
+                        </div>
+                        <!-- logo close -->
+
+                            <!-- small button begin -->
+                            <span id="menu-btn"></span>
+                            <!-- small button close -->
+
+                            <div class="header-extra">
+                                <div class="v-center">
+                                    <span id="b-menu">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- mainmenu begin -->
+							<ul id="mainmenu" class="ms-2">
+								<!--<li><a href="#section-hero">Home<span></span></a>-->
+                                    
+                                </li>
+						<!--<li><a href="#section-hero">ACTIVATECH<span></span></a></li>-->
+						<li><a href="index.html">ACTIVATECH<span></span></a></li>
+						
+							</ul>
+							
+							<!-- mainmenu close -->
+
+                            
+
+                    </div>
+                    
+
+                </div>
+            </div>
+        </header>
+        <audio id="backgroundMusic" loop autoplay>
+            <source src="audio/pruebamusica2.mp3" type="audio/mpeg">
+            <!-- Asegúrate de proporcionar una fuente de respaldo para navegadores que no admiten MP3 -->
+            Your browser does not support the audio element.
+        </audio>
+        <!--<div class="music-control">
+            <button onclick="toggleBackgroundMusic()">Toggle Music</button>
+        </div>-->
+        <!-- header close -->
+
+<!--<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/activatech.jpg" type="image/gif" sizes="16x16">
+    <title>ACTIVATECH - FORO INTERNACIONAL DE INNOVACI`N Y TECNOLOGÌA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- CSS Files
+    ================================================== 
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" id="bootstrap-grid">
+    <link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" id="bootstrap-reboot">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/rev-settings.css" rel="stylesheet" type="text/css">
+    <link href="css/color.css" rel="stylesheet" type="text/css">
+
+    <!-- color scheme 
+	<link rel="stylesheet" href="css/colors/magenta.css" type="text/css" id="colors">
+
+	<!-- custom font --
+	<link rel="stylesheet" href="css/font-style.css" type="text/css">
+</head>
+
+<body id="homepage">
+
+    <div id="wrapper">
+
+        <!-- header begin 
+        <header class="transparent">
+            <div class="info">
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        <div class="col-md-12">
+                            <div class="column">Working Hours Monday - Friday <span class="id-color"><strong>08:00-16:00</strong></span></div>
+                            <div class="column">Toll Free <span class="id-color"><strong>1800.899.900</strong></span></div>
+                            <!-- social icons --
+                            <div class="column social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-rss"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                <a href="#"><i class="fa fa-envelope-o"></i></a>
+                            </div>
+                            <!-- social icons close --
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="col-md-12">
+                        <!-- logo begin --
+                        <div id="logo">
+                            <a href="index.html">
+                                <img class="logo" src="images/sinfondoactivatech (1).png" alt="">
+                            </a>
+                        </div>
+                        <!-- logo close --
+
+                        <!-- small button begin --
+								<div id="mo-button-open">
+									<div></div>
+									<div></div>
+									<div></div>
+								</div>
+
+								<!-- small button close --
+
+                    </div>
+                    
+
+                </div>
+            </div>
+        </header>
+        <!-- header close -->		
+		
+		<!-- menu overlay begin --
+		<div id="menu-overlay" class="slideDown">
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="col-md-12">
+							
+						<div id="mo-button-close">
+				<div class="line-1"></div>
+				<div class="line-2"></div>
+			</div>
+			
+			<div class="pt80 pb80">
+			
+			<div class="mo-nav text-center">
+				<a href="index.html">
+					<img class="logo" src="images/INFOACTIVA-removebg-preview.png" alt="">
+				</a>
+				
+				<div class="spacer-single"></div>
+							
+				<!-- mainmenu begin --
+                    <ul id="mo-menu">
+                        <li><a href="#section-hero">ACTIVATECH<span></span></a></li>
+						<li><a href="#section-about">ACERCA DE<span></span></a></li>
+						<li><a href="#section-speakers">SPEAKERS<span></span></a></li>
+						<li><a href="#section-schedule">HORARIO - CRONOGRAMA<span></span></a></li>
+						<li><a href="#section-ticket">TICKETS<span></span></a></li>
+						<li><a href="#section-sponsors">SPONSOR<span></span></a></li>
+						<li><a href="#section-register">REGISTRATE<span></span></a></li>
+                    </ul>
+				<!-- mainmenu close --
+					
+                </div>
+				
+			</div>
+			
+			</div>
+							
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!-- menu overlay close -->
+
+
+        <!-- content begin -->
+        <div id="content" class="no-bottom no-top">
+		
+			<section id="section-hero" class="full-height no-padding text-light" data-speed="5" data-type="background">
+                <div class="de-video-container">
+                    <div class="de-video-content">
+                        <div class="container">
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<div id="defaultCountdown" class="countdown-s2"></div>
+								<div class="spacer-single"></div>
+								
+								
+								<div class="spacer-single"></div>
+								
+							</div>
+						</div>
+					</div>
+                    </div>
+
+                    <div class="de-video-overlay t50"></div>
+
+                    <!-- load your video here -->
+                    <div class="content">
+                        <!-- Aquí va el contenido previo de la página -->
+                        
+                        <!-- Reemplazar el video con el carrusel de imágenes -->
+                        <div class="carousel">
+                            <div class="slides">
+                                <img src="images/tecnia1.png" alt="Imagen 1">
+                                <img src="images/tecnia2.png" alt="Imagen 2">
+                                <img src="images/tecnia3.png" alt="Imagen 3">
+                                <img src="images/tecnia4.png" alt="Imagen 1">
+                                <img src="images/tecnia5.png" alt="Imagen 2">
+                                <img src="images/tecnia6.png" alt="Imagen 3">
+                                <img src="images/tecnia7.png" alt="Imagen 1">
+                                <img src="images/tecnia8.png" alt="Imagen 2">
+                                <img src="images/tecnia9.png" alt="Imagen 3">
+                                <img src="images/tecnia10.png" alt="Imagen 1">
+                                <img src="images/tecnia11.png" alt="Imagen 2">
+                                <img src="images/tecnia12.png" alt="Imagen 3">
+                                <img src="images/tecnia13.png" alt="Imagen 1">
+                                <img src="images/tecnia14.png" alt="Imagen 2">
+                                <img src="images/tecnia15.png" alt="Imagen 3">
+                            </div>
+                            <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+                            <button class="next" onclick="plusSlides(1)">&#10095;</button>
+                        </div>
+                        <div class="dots">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                            <span class="dot" onclick="currentSlide(5)"></span>
+                            <span class="dot" onclick="currentSlide(6)"></span>
+                            <span class="dot" onclick="currentSlide(7)"></span>
+                            <span class="dot" onclick="currentSlide(8)"></span>
+                            <span class="dot" onclick="currentSlide(9)"></span>
+                            <span class="dot" onclick="currentSlide(10)"></span>
+                            <span class="dot" onclick="currentSlide(11)"></span>
+                            <span class="dot" onclick="currentSlide(12)"></span>
+                            <span class="dot" onclick="currentSlide(13)"></span>
+                            <span class="dot" onclick="currentSlide(14)"></span>
+                            <span class="dot" onclick="currentSlide(15)"></span>
+                        </div>
+                
+                        <!-- Aquí sigue el contenido posterior de la página -->
+                    </div>
+                    <script>
+                        let slideIndex = 0;
+                        showSlides();
+                
+                        function showSlides() {
+                            let slides = document.querySelectorAll(".slides img");
+                            let dots = document.querySelectorAll(".dot");
+                            for (let i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";
+                            }
+                            slideIndex++;
+                            if (slideIndex > slides.length) {slideIndex = 1}
+                            for (let i = 0; i < dots.length; i++) {
+                                dots[i].className = dots[i].className.replace(" active", "");
+                            }
+                            slides[slideIndex-1].style.display = "block";
+                            dots[slideIndex-1].className += " active";
+                            setTimeout(showSlides, 2000); // Cambia la imagen cada 2 segundos
+                        }
+                
+                        function plusSlides(n) {
+                            slideIndex += n - 1;
+                            showSlides();
+                        }
+                
+                        function currentSlide(n) {
+                            slideIndex = n - 1;
+                            showSlides();
+                        }
+                    </script>
+                    <!--<video preload="true" autoplay="autoplay" loop="true"  poster="images/video-poster.jpg">
+                        <source src="images/WhatsApp Video 2024-06-11 at 3.41.42 PM (1).mp4" type="video/mp4" />
+                    </video>-->
+                    
+
+                </div>
+
+            </section>
+           
+
+
+            <!-- footer begin -->
+        <footer class="style-2">
+            <div class="container">
+                <div class="row align-items-middle">
+                    <div class="col-md-3">
+                        <img src="images/sinfondoactivatech (1).png" class="logo-small" alt=""><br>
+                    </div>
+
+                    <div class="col-md-6">
+                        &copy; Copyright 2024 - Activatech - FORO INTERNACIONAL DE INNOVACIÒN Y
+                        TECNOLOGÌA <span class="id-color">2024</span>
+                    </div>
+
+                    <div class="col-md-3 text-right">
+                        <div class="social-icons">
+                            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                            <a href="#"><i class="fa fa-rss fa-lg"></i></a>
+                            <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                            <a href="#"><i class="fa fa-skype fa-lg"></i></a>
+                            <a href="#"><i class="fa fa-dribbble fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <a href="#" id="back-to-top" class="custom-1"></a>
+        </footer>
+        <!-- footer close -->
+        </div>
+    </div>
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="js/validation.js"></script>
+    
+	</body>
+
+</html>
